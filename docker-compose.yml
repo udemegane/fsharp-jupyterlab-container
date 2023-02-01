@@ -7,7 +7,4 @@ services:
      jupyter-lab --ip 0.0.0.0 --allow-root --no-browser -b localhost --port 8080
     ports:
       - "8080:8080"
-    working_dir: /root/workdir
     tty: true
-    volumes:
-      - ./workdir:/root/workdir
